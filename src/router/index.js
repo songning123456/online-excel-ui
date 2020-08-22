@@ -7,10 +7,10 @@ export default new Router({
     routes: [
         {
             path: '/',
-            name: 'Test',
-            component: () => import('../views/test/Test'),
+            name: 'OnlineExcel',
+            component: () => import('../views/excel/OnlineExcel'),
             meta: {
-                title: '测试'
+                title: '在线excel'
             }
         },
         {
